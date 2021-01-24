@@ -21,7 +21,7 @@ public class Task4_numsOrd {
                 if(j > length)  break;//判断跳出循环，防止死循环
                 for (; i <= length; i++) {
                     nums[i] = nums[i + 1];//把当前为0的后面元素依次前移
-                }
+                }//点赞！
                 length--;//第length个元素已经处理完毕，只需要处理前面length-1个元素
             }
         }
